@@ -10,7 +10,7 @@ const server= http.createServer(app);
 // const allowedOrigins=['http://localhost:3000/','https://chat-lemon-gamma.vercel.app']
 const io=new Server(server,{
     cors:{
-        origin:'https://chat-lemon-gamma.vercel.app'
+        origin:'*'
     }
 });
 
